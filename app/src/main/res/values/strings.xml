@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">ArchitectureQuizApp</string>
+    <string name="instruction">Please answer questions below</string>
+    <string name="question_1">Where is situated building from picture above?</string>
+    <string name="question_2">And this one?</string>
+    <string name="question_3">How about that one</string>
+    <string name="question_4">This pearl of Modernism was build in..</string>
+    <string name="question_5">The year when they finished it?</string>
+    <string name="question_6">Please type in your name:</string>
+    <string name="question_7">Which 2 of this 3 given countries has the highest number of modernism buildings? </string>
+    <string name="date">Dates-Quiz</string>
+    <string name="location">Location-Quiz</string>
+    <string name="forgotten">Forgotten beauty of the 20th Century</string>
+    <string name="gallery">Modernism Gallery</string>
+    <string name="button">Score</string>
+
+    <string name="answer5_officer">Officer</string>
+    <string name="answer5_prisoner">Prisoner</string>
+    <string name="answer5_soldier">Ordinary soldier</string>
+
+    <string name="answer7A">Poland</string>
+    <string name="answer7B">France</string>
+    <string name="answer7C">U.S.A.</string>
+
+    // Text on score button
+
+
+
+</resources>
