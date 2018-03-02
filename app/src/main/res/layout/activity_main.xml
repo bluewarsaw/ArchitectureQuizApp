@@ -176,20 +176,21 @@
                 android:layout_weight="3">
 
                 <CheckBox
-                    android:id="@+id/modernismanswer"
+                    android:id="@+id/cb_modernismanswer_pl"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/answer7A"
                     android:layout_weight="1"/>
 
                 <CheckBox
-                    android:id="@+id/postwarmodernismanswer"
+                    android:id="@+id/cb_modernismanswer_fr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/answer7B" />
 
                 <CheckBox
+                    android:id="@+id/cb_modernismanswer_usa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
