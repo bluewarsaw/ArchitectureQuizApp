@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     // int score shows how many good answers were given by a player
-    int score = 0;
+    private int score = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,13 +34,9 @@ public class MainActivity extends AppCompatActivity {
 
         // check CheckBoxes
         CheckBox modernismA = (CheckBox) findViewById(R.id.cb_modernismanswer_pl);
-        boolean ismodernism = modernismA.isChecked();
-
         CheckBox postwarmodernismB = (CheckBox) findViewById(R.id.cb_modernismanswer_fr);
-        boolean ispostwarmodernism = postwarmodernismB.isChecked();
-
         CheckBox powstwarmodernismC = (CheckBox) findViewById(R.id.cb_modernismanswer_usa);
-        boolean ispowstwarmodernismC = powstwarmodernismC.isChecked();
+
 
         // this part creates String that was given by a player in EditText field and it turns it to lower case
         EditText openText = (EditText) findViewById(R.id.answer);
@@ -62,15 +58,10 @@ public class MainActivity extends AppCompatActivity {
             score += 1;
         }
 
-        if (ismodernism && ispostwarmodernism) {
+        if (modernismA.isChecked() && postwarmodernismB.isChecked() && !powstwarmodernismC.isChecked()) {
             score += 1;
-        } else if (ispowstwarmodernismC){
-            score += 0;
-        } else if (ismodernism && ispostwarmodernism && ispowstwarmodernismC){
-            score += 0;
-        } else {
-            score += 0;
         }
+
 
         // answer given in text entry need to contain word "le corbusier". Thanks to toLowerCase() method, player receives a point even if he/she types upper case letters.
         if (openAnswer.contains("le corbusier")) {

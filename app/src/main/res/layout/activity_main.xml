@@ -58,21 +58,21 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Katowice" />
+                    android:text="@string/Katowice" />
 
                 <RadioButton
                     android:id="@+id/prague"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Prague" />
+                    android:text="@string/Prague" />
 
                 <RadioButton
                     android:id="@+id/warsaw"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Warsaw" />
+                    android:text="@string/Warsaw" />
 
             </RadioGroup>
 
@@ -102,20 +102,20 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Bratislava" />
+                    android:text="@string/Bratislava" />
 
                 <RadioButton
                     android:id="@+id/warsawThree"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Warsaw" />
+                    android:text="@string/Warsaw" />
 
                 <RadioButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Wroclaw" />
+                    android:text="@string/Wroclaw" />
 
             </RadioGroup>
 
@@ -146,19 +146,19 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Warsaw" />
+                    android:text="@string/Warsaw" />
 
                 <RadioButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Berlin" />
+                    android:text="@string/Berlin" />
 
                 <RadioButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Moscow" />
+                    android:text="@string/Moscow" />
 
             </RadioGroup>
 
@@ -205,7 +205,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
-                android:text="What's the name of french architecter, the 'father' of Modernism style?"
+                android:text="@string/fatherModernism"
                 />
 
             <EditText

@@ -15,6 +15,15 @@
     <string name="gallery">Modernism Gallery</string>
     <string name="button">Score</string>
 
+    <string name="Warsaw">Warsaw</string>
+    <string name="Berlin">Berlin</string>
+    <string name="Moscow">Moscow</string>
+    <string name="Wroclaw">Wroclaw</string>
+    <string name="Bratislava">Bratislava</string>
+    <string name="Prague">Prague</string>
+    <string name="Katowice">Katowice</string>
+    <string name="fatherModernism">What's the name of french architecter, the 'father' of Modernism style?</string>
+
     <string name="answer5_officer">Officer</string>
     <string name="answer5_prisoner">Prisoner</string>
     <string name="answer5_soldier">Ordinary soldier</string>
