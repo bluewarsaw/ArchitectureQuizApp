@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Your score: " + score + "/5" + "\n Try better, " + openNameAnswer, Toast.LENGTH_LONG).show();
         }
 
-        if (score == 3){
+        if (score == 3) {
             Toast.makeText(this, "Your score: " + score + "/5" + "\n pretty nice, " + openNameAnswer, Toast.LENGTH_LONG).show();
         }
         // after toast message, method resets "score" value back to 0.
